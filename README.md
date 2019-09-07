@@ -1,4 +1,6 @@
 # dataprov: Automatic provenance metadata generation
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffbartusch%2Fdataprov.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffbartusch%2Fdataprov?ref=badge_shield)
+
 
 Dataprov is a wrapper that produces provenance metadata at the same time the data processing happens.
 
@@ -216,3 +218,7 @@ dataprov run cwltool arguments.cwl arguments-job.yml
 
 The generated provenance files follow the XML schema provided with this repository. The schema documentation can be found under `xml/schema_doc`.
 The documentation was built with `xsltproc` using the [xs3p XSLT stylesheet](https://xml.fiforms.org/xs3p/) and can be viewed in a browser.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffbartusch%2Fdataprov.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffbartusch%2Fdataprov?ref=badge_large)
